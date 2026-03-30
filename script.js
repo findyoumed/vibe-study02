@@ -2,7 +2,6 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     initScrollAnimations();
-    initStatsCounter();
     initMobileMenu();
     initSmoothScrolling();
     initScrollTop();

@@ -4,25 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>프로 선수 프로필 | 김혁신 (Athletic Pro)</title>
-    <!-- Google Fonts: Inter & Noto Sans KR -->
+    <title>히어로 선수 | 김혁신 (Super Athlete)</title>
+    <!-- Google Fonts: Noto Sans KR -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Noto+Sans+KR:wght@300;400;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- [LOG: 20260330_0955] 경량화 및 고도화 버전 -->
+    <!-- Header -->
     <header class="header">
         <nav class="nav container">
-            <div class="logo">ATHLETE<span>PRO</span></div>
+            <div class="logo">HERO<span>PRO</span></div>
             <ul class="nav-links">
-                <li><a href="#about">선수 소개</a></li>
-                <li><a href="#stats">주요 기록</a></li>
-                <li><a href="#gallery">갤러리</a></li>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#stats">기록</a></li>
+                <li><a href="#gallery">모습</a></li>
             </ul>
             <div class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
@@ -34,38 +32,38 @@
 
     <main>
         <!-- Hero Section -->
-        <section class="hero" id="home">
+        <section class="hero section" id="home">
+            <div class="cloud" style="top: 150px; left: 10%; transform: scale(0.8);"></div>
+            <div class="cloud" style="top: 300px; right: 15%; transform: scale(1.2);"></div>
             <div class="hero-content container">
-                <h1 class="hero-title animate-text">한계를 넘어서는 <span>도전</span></h1>
-                <p class="hero-subtitle animate-text">대한민국 국가대표 육상 선수 | 세계 기록 보유자</p>
+                <h1 class="hero-title animate-text">불가능한 <span>기적!</span></h1>
+                <p class="hero-subtitle animate-text">대한민국 대표 히어로 육상 선수 | 김혁신</p>
                 <div class="hero-cta animate-text">
-                    <a href="#about" class="btn btn-primary">더 알아보기</a>
+                    <a href="#about" class="btn btn-primary">탐험 시작!</a>
                 </div>
             </div>
         </section>
 
         <!-- About Section -->
-        <section class="about section container" id="about">
-            <div class="section-header">
-                <h2 class="section-title">스토리</h2>
-                <div class="title-underline"></div>
-            </div>
-            <div class="about-grid">
-                <div class="about-image glass-card animate-on-scroll">
-                    <img src="profile.png" alt="김혁신 선수"
-                        style="width: 100%; height: auto; border-radius: 10px; opacity: 0.9;">
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">나의 이야기</h2>
                 </div>
-                <div class="about-text animate-on-scroll">
-                    <h3>"완벽은 결코 멈추지 않는 여정입니다."</h3>
-                    <p>안녕하세요! 트랙 위에서 0.01초의 기적을 만드는 선수, 김혁신입니다. 지난 12년간 대한민국 국가대표로 활동하며 수많은 역경을 이겨내고 최고의 순간들을 만들어왔습니다.
-                    </p>
-                    <p>단순히 빠른 속도만을 추구하는 것이 아니라, 매일의 훈련을 통해 어제의 나를 넘어서는 과정에 자부심을 느낍니다. 팬 여러분의 응원은 제 가장 큰 원동력입니다.</p>
-                    <ul class="achievements">
-                        <li>🏆 2024 파리 올림픽 - 금메달 획득</li>
-                        <li>🥇 세계 육상 선수권 대회 - 2회 연속 우승 (2022, 2023)</li>
-                        <li>🔥 한국 100m 신기록 보유 (9.81초)</li>
-                        <li>🎖️ 체육훈장 청룡장 수훈</li>
-                    </ul>
+                <div class="about-grid">
+                    <div class="about-image flat-card animate-on-scroll">
+                        <img src="profile.png" alt="김혁신 선수" style="width: 100%; border-radius: 20px;">
+                    </div>
+                    <div class="about-text flat-card animate-on-scroll">
+                        <h3>"포기란 배추 셀 때나 쓰는 말!"</h3>
+                        <p>안녕하세요! 트랙 위에서 바람을 가르는 히어로, 김혁신입니다. 오늘도 나 자신을 이기기 위해 열심히 달리고 있습니다!</p>
+                        <ul class="achievements">
+                            <li>🏆 올림픽 금메달!</li>
+                            <li>🥇 세계 선수권 우승!</li>
+                            <li>⚡ 한국 최고 기록!</li>
+                            <li>🎖️ 국민 영웅상 수훈!</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -74,48 +72,48 @@
         <section class="stats section" id="stats">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">퍼포먼스 데이터</h2>
-                    <div class="title-underline"></div>
+                    <h2 class="section-title">슈퍼 파워 데이터</h2>
                 </div>
                 <div class="stats-grid">
-                    <div class="stat-card glass-card animate-on-scroll">
+                    <div class="stat-card animate-on-scroll">
                         <h3 class="stat-number" data-target="981">0</h3>
-                        <p class="stat-label">100m 개인 최고 기록 (초)</p>
+                        <p class="stat-label">100m 기록 (초)</p>
                     </div>
-                    <div class="stat-card glass-card animate-on-scroll">
+                    <div class="stat-card animate-on-scroll">
                         <h3 class="stat-number" data-target="152">0</h3>
-                        <p class="stat-label">국제 대회 통산 우승 횟수</p>
+                        <p class="stat-label">국제 우승 횟수</p>
                     </div>
-                    <div class="stat-card glass-card animate-on-scroll">
+                    <div class="stat-card animate-on-scroll">
                         <h3 class="stat-number" data-target="12">0</h3>
-                        <p class="stat-label">프로 데뷔차 (년)</p>
+                        <p class="stat-label">프로 생활 (년)</p>
                     </div>
-                    <div class="stat-card glass-card animate-on-scroll">
+                    <div class="stat-card animate-on-scroll">
                         <h3 class="stat-number" data-target="5200">0</h3>
-                        <p class="stat-label">연간 평균 훈련 시간 (시간)</p>
+                        <p class="stat-label">연간 훈련 시간</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Gallery Section -->
-        <section class="gallery section container" id="gallery">
-            <div class="section-header">
-                <h2 class="section-title">주요 순간들</h2>
-                <div class="title-underline"></div>
-            </div>
-            <div class="gallery-grid">
-                <div class="gallery-item glass-card animate-on-scroll">
-                    <img src="training.png" alt="훈련" class="gallery-img">
+        <section class="gallery section" id="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">히어로의 순간들</h2>
                 </div>
-                <div class="gallery-item glass-card animate-on-scroll">
-                    <img src="race_start.png" alt="경기 시작" class="gallery-img">
-                </div>
-                <div class="gallery-item glass-card animate-on-scroll">
-                    <img src="victory.png" alt="우승의 순간" class="gallery-img">
-                </div>
-                <div class="gallery-item glass-card animate-on-scroll">
-                    <img src="interview.png" alt="인터뷰 현장" class="gallery-img">
+                <div class="gallery-grid">
+                    <div class="gallery-item flat-card animate-on-scroll">
+                        <img src="training.png" alt="훈련" class="gallery-img">
+                    </div>
+                    <div class="gallery-item flat-card animate-on-scroll">
+                        <img src="race_start.png" alt="준비" class="gallery-img">
+                    </div>
+                    <div class="gallery-item flat-card animate-on-scroll">
+                        <img src="victory.png" alt="우승" class="gallery-img">
+                    </div>
+                    <div class="gallery-item flat-card animate-on-scroll">
+                        <img src="interview.png" alt="인터뷰" class="gallery-img">
+                    </div>
                 </div>
             </div>
         </section>
@@ -124,12 +122,12 @@
     <footer class="footer">
         <div class="container footer-content">
             <div class="footer-info">
-                <div class="logo">ATHLETE<span>PRO</span></div>
-                <p>당신의 열정은 어제의 한계를 넘는 힘입니다.</p>
+                <div class="logo">HERO<span>PRO</span></div>
+                <p>꿈을 향해 멈추지 말고 함께 달려요!</p>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 ATHLETEPRO. 모든 권리 보유.</p>
+            <div class="footer-bottom">
+                <p>&copy; 2026 HEROPRO. ALL RIGHTS RESERVED.</p>
+            </div>
         </div>
     </footer>
 
